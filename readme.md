@@ -1,12 +1,10 @@
-![banner](images/banner.png)
+# VSCode Visual shortcut command button
 
-# VSCode 可视化快捷命令按钮
-
-方便的像一个IDE一样
+Conveniently run your node project like an IDE
 
 ## Features
 
-当项目为一个npm项目并且有package.json的script以下命令时，可以快捷的关联四个按钮到
+When the project is a node project and there is a script command for packagejson, the following four buttons can be quickly associated：
 * npm start
 * npm run build
 * npm run publish
@@ -19,7 +17,8 @@
 
 
 
-> Tip: 你需要自行创建这四个npm script
+> Tip: 
+You need to create these four npm scripts yourself
 
 ## Extension Settings
 

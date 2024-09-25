@@ -1,13 +1,13 @@
 {
-	"name": "run-buttons",
+	"name": "run-buttons-green",
 	"displayName": "Npm Run Buttons",
 	"publisher": "lzc",
 	"repository": {
 		"type": "git",
-		"url": ""
+		"url": "https://github.com/string-lzc/run-buttons.git"
 	},
 	"description": "",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
