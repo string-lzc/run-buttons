@@ -1,6 +1,8 @@
-# VSCode Visual shortcut command button
+# VSCode visual shortcut command button
 
-Conveniently run your node project like an IDE
+Conveniently run your node project like an IDE.
+
+
 
 ## Features
 
@@ -18,7 +20,10 @@ When the project is a node project and there is a script command for packagejson
 
 
 > Tip: 
-You need to create these four npm scripts yourself
+You need to create these four npm scripts yourself.
+
+> Another Tip:  
+With my plugin installed, your VSCode will surpass IDEA and Android Studio, and directly compete with all JetBrains products!
 
 ## Extension Settings
 
@@ -41,3 +46,7 @@ Update Readme.md
 ### 1.0.2
 
 Create a NEW terminal to run.
+
+### 1.0.3
+
+Update Readme.md
