@@ -1,0 +1,109 @@
+{
+	"name": "run-buttons",
+	"displayName": "Npm Run Buttons",
+	"publisher": "lzc",
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"description": "",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.63.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"npm",
+		"node",
+		"script",
+		"scripts",
+		"button",
+		"buttons",
+		"shortcuts",
+		"actions",
+		"package.json",
+		"script-buttons.json"
+	],
+	"icon": "images/logo.png",
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "npm.start",
+				"title": "npm start",
+				"icon": "images/play-sharp.svg"
+			},
+			{
+				"command": "npm.build",
+				"title": "npm run build",
+				"icon": "images/build-sharp.svg"
+			},
+			{
+				"command": "npm.publish",
+				"title": "npm run publish",
+				"icon": "images/cloud-upload-sharp.svg"
+			},
+			{
+				"command": "npm.android",
+				"title": "npm run build:android",
+				"icon": "images/logo-android.svg"
+			},
+			{
+				"command": "split",
+				"title": "|"
+			}
+		],
+		"menus": {
+        "editor/title": [
+            {
+                "command": "npm.start",
+                "when": "true",
+                "group": "navigation@1"
+            },
+						{
+                "command": "npm.build",
+                "when": "true",
+                "group": "navigation@2"
+            },
+						{
+							"command": "npm.publish",
+							"when": "true",
+							"group": "navigation@3"
+						},
+            {
+                "command": "npm.android",
+                "when": "true",
+                "group": "navigation@4"
+            }
+          
+        ]
+    }
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js",
+		"publish": "vsce publish"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.63.0",
+		"@types/glob": "^7.1.4",
+		"@types/mocha": "^9.0.0",
+		"@types/node": "14.x",
+		"@typescript-eslint/eslint-plugin": "^5.1.0",
+		"@typescript-eslint/parser": "^5.1.0",
+		"eslint": "^8.1.0",
+		"glob": "^7.1.7",
+		"mocha": "^9.1.3",
+		"typescript": "^4.4.4",
+		"@vscode/test-electron": "^1.6.2"
+	}
+}
