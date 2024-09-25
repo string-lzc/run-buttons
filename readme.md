@@ -33,3 +33,11 @@ There are currently no known issues.
 ### 1.0.0
 
 Initial release.
+
+### 1.0.1
+
+Update Readme.md
+
+### 1.0.2
+
+Create a NEW terminal to run.

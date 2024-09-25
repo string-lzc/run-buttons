@@ -31,11 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
    */
   function executeInTerminal(command: string) {
     // 如果已经有打开的终端，使用它；否则创建新终端
-    let terminal = vscode.window.activeTerminal;
-    if (!terminal) {
-      terminal = vscode.window.createTerminal('NPM Scripts');
-    }
-
+    let terminal = vscode.window.createTerminal('NPM Scripts');
     terminal.show(); // 显示终端
     terminal.sendText(command); // 向终端发送命令
   }
