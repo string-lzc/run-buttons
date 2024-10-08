@@ -7,7 +7,7 @@
 		"url": "https://github.com/string-lzc/run-buttons.git"
 	},
 	"description": "",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"engines": {
 		"vscode": "^1.63.0"
 	},
@@ -86,7 +86,7 @@
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
+		"build": "tsc -p ./",
 		"watch": "tsc -watch -p ./",
 		"pretest": "npm run compile && npm run lint",
 		"lint": "eslint src --ext ts",

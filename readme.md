@@ -41,7 +41,7 @@ Initial release.
 
 ### 1.0.1
 
-Update Readme.md
+Update Readme.md.
 
 ### 1.0.2
 
@@ -49,4 +49,8 @@ Create a NEW terminal to run.
 
 ### 1.0.3
 
-Update Readme.md
+Update Readme.md.
+
+### 1.0.4
+
+Name a new shell title according to the script.
