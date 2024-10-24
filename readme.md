@@ -27,7 +27,9 @@ With my plugin installed, your VSCode will surpass IDEA and Android Studio, and 
 
 ## Extension Settings
 
-This extension currently has no settings.
+Now you can control the visibility of the run buttons.
+
+![alt text](image.png)
 
 ## Known Issues
 
@@ -54,3 +56,7 @@ Update Readme.md.
 ### 1.0.4
 
 Name a new shell title according to the script.
+
+### 1.0.5
+
+Config the visibility of the run buttons.
